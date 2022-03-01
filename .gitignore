@@ -46,11 +46,11 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+UnSeen/Binaries/*
+UnSeen/Plugins/*/Binaries/*
 
 # Builds
-Build/*
+UnSeen/Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
