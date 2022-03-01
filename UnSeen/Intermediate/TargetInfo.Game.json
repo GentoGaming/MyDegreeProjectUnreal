@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnSeen",
+			"Path": "C:\\Users\\Gentmat.DESKTOP-90IRF99\\Desktop\\MyDegreeProjectUnreal\\UnSeen\\Source\\UnSeen.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnSeenEditor",
+			"Path": "C:\\Users\\Gentmat.DESKTOP-90IRF99\\Desktop\\MyDegreeProjectUnreal\\UnSeen\\Source\\UnSeenEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

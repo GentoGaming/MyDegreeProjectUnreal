@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnSeen.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9DA62560-0204-40EB-8867-24BFF9415362}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnSeen.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnSeenEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B93485E8-5DF5-440F-BB44-098F9237D3B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnSeen">
+      <UniqueIdentifier>{BB4B951E-50DB-4E1E-8E72-2D9D66F48C79}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnSeen\UnSeen.Build.cs">
+      <Filter>Source\UnSeen</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnSeen\UnSeen.cpp">
+      <Filter>Source\UnSeen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnSeen\UnSeen.h">
+      <Filter>Source\UnSeen</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnSeen\Player">
+      <UniqueIdentifier>{25DE7E1B-C954-45F0-B883-7A8074CE2FED}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnSeen\Player\CharacterAIController.cpp">
+      <Filter>Source\UnSeen\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnSeen\Player\CharacterAIController.h">
+      <Filter>Source\UnSeen\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnSeen\Player\FKeyBindingStruct.h">
+      <Filter>Source\UnSeen\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnSeen\Player\Interaction.cpp">
+      <Filter>Source\UnSeen\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnSeen\Player\Interaction.h">
+      <Filter>Source\UnSeen\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnSeen\Player\PlayerCharacter.cpp">
+      <Filter>Source\UnSeen\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnSeen\Player\PlayerCharacter.h">
+      <Filter>Source\UnSeen\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnSeen\Weapons">
+      <UniqueIdentifier>{4F163CAB-4389-4708-B40A-F0DA69E563E3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnSeen\Weapons\ProjectileBullet.cpp">
+      <Filter>Source\UnSeen\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnSeen\Weapons\ProjectileBullet.h">
+      <Filter>Source\UnSeen\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnSeen\Weapons\Weapon.cpp">
+      <Filter>Source\UnSeen\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnSeen\Weapons\Weapon.h">
+      <Filter>Source\UnSeen\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
